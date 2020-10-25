@@ -1,0 +1,1 @@
+FROM openjdk:11-alpineCOPY target/ms-config-server-*.jar /ms-config-server.jarCMD ["java", "-jar", "/ms-config-server.jar"]

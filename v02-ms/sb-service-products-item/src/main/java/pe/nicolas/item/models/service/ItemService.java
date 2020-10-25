@@ -1,0 +1,1 @@
+package pe.nicolas.item.models.service;import pe.nicolas.item.models.Item;import ms.pe.common.models.entity.Product;import java.util.List;public interface ItemService {    List<Item> findAll();    Item findById(Long id, Integer quantity);    Product save(Product product);    Product update(Product product, Long id);    void delete(Long id);}

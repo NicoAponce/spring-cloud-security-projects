@@ -1,0 +1,1 @@
+package pe.spring.project.security.entity;import javax.persistence.*;@Entity@Table(name = "persons")public class Person {    @Id    @GeneratedValue(strategy = GenerationType.IDENTITY)    public Long id;    public String name;    public int age;    public String status;}

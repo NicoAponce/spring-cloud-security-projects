@@ -1,0 +1,1 @@
+INSERT INTO products (name,price,created_at) VALUES ('Dell',2500,now());INSERT INTO products (name,price,created_at) VALUES ('Lenovo',2900,now());INSERT INTO products (name,price,created_at) VALUES ('Samsung',3500,now());INSERT INTO products (name,price,created_at) VALUES ('LG',1500,now());INSERT INTO products (name,price,created_at) VALUES ('Corolla',20500,now());

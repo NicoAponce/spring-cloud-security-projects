@@ -1,0 +1,1 @@
+package pe.spring.project.security.service;import pe.spring.project.security.entity.Person;import java.util.List;public interface IPersonService {    List<Person> select();    Person get(Long id);    Person insert(Person person);    Person update(Person person, Long id);    Person delete(Long id);}

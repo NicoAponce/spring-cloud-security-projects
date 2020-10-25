@@ -1,0 +1,1 @@
+package ms.pe.project.item.models.entity;public class Item {    public Product product;    public Integer quantity;    public Item(Product product, Integer quantity) {        this.product = product;        this.quantity = quantity;    }    public Double getTotal() {        return product.price * quantity.doubleValue();    }}

@@ -1,0 +1,1 @@
+package com.example.demo.models.dao;import com.example.demo.models.entity.Product;import org.springframework.data.repository.CrudRepository;public interface ProductDao extends CrudRepository<Product, Long> {}

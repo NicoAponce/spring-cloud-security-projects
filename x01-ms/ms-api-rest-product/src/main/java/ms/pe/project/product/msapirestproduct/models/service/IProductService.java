@@ -1,0 +1,1 @@
+package ms.pe.project.product.msapirestproduct.models.service;import ms.pe.project.product.msapirestproduct.models.entity.Product;import java.util.List;public interface IProductService {    List<Product> select();    Product get(Long id);    Product insert(Product product);    void delete(Long id);}

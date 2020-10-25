@@ -1,0 +1,1 @@
+package ms.pe.project.oauth.services;import ms.pe.project.commonuser.models.entity.User;public interface IUserService {    User findByUsername(String username);}

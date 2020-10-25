@@ -1,0 +1,1 @@
+package ms.pe.project.product.msapirestproduct.models.dao;import ms.pe.project.product.msapirestproduct.models.entity.Product;import org.springframework.data.repository.CrudRepository;public interface ProductDao extends CrudRepository<Product, Long> {}

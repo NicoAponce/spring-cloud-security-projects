@@ -1,0 +1,1 @@
+package pe.spring.project.security.repository;import org.springframework.data.jpa.repository.JpaRepository;import org.springframework.stereotype.Repository;import pe.spring.project.security.entity.Person;@Repositorypublic interface IPersonRepository extends JpaRepository<Person, Long> {}

@@ -1,0 +1,1 @@
+package ms.pe.project.item.models.service;import ms.pe.project.item.models.entity.Item;import ms.pe.project.item.models.entity.Product;import java.util.List;public interface IItemService {    List<Item> select();    Item get(Long id, Integer quantity);    Product insert(Product product);    Product update(Product product, Long id);    void delete(Long id);}
